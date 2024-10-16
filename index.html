@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><span class="gen">Generate</span><span class="your"> your </span><span class="pass">Password</span></h1>
+    </header>
+    <main>
+        <form>
+            <label for="length">
+                Enter the length of your Password:
+                <input type="number" required id="length">
+            </label>
+            <label for="upperCase">
+                <input type="checkbox" name="validations" id="upperCase">
+                Should contain upperCase letters
+            </label>
+            <label for="lowerCase">
+                <input type="checkbox" name="validations" id="lowerCase">
+                Should contain lowerCase letters
+            </label>
+            <label for="numbers">
+                <input type="checkbox" name="validations" id="numbers">
+                Should contain numbers
+            </label>
+            <label for="charachters">
+                <input type="checkbox" name="validations" id="charachters">
+                Should contain special charachters
+            </label>
+            <button>Submit</button>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header{
+    padding: 10px;
+    min-height: 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap :50px;
+    padding: 20px;
+    form{
+        border: 2px solid whitesmoke;
+        padding: 25px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap : 35px;
+        box-shadow: 8px 8px 15px rgb(160, 160, 160);
+        button{
+            align-self: center;
+        }
+        
+    }
+    form:hover{
+        transform: scale(1.05);
+        transition: ease-in-out;
+    }
+    button{
+        width:max-content;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        color: black;
+        border: none;
+    }
+    button:hover{
+        transform: scale(1.2);
+        transition: ease-in-out;
+    }
+}
+div{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px
+}
